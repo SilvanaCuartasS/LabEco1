@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #data-container {
+            margin-top: 20px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 300px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section class="anime-activity">
+    <h1>Fetch Example</h1>
+    <label for="rating-anime">Raiting</label>
+    <input type="text" id="rating-anime"></input>
+    <label for="type-anime">Type</label>
+    <input type="text" id="type-anime"></input>
+    <label for="status-anime">Status</label>
+    <input type="text" id="status-anime"></input>
+    <button id="fetch-button">¡Busca un anime!</button>
+    <div id="data-container"></div>
+    </section>
+    
+    <section class="cat-activity">
+        <div id="data-cat-fact">
+            <p class="about-btn">¡Haz clic en el botón para conocer un dato sobre un gato!</p>
+            <button id="get-data">Obten un dato</button>
+            <hr>
+            <p class="results"></p>
+        </div>
+        <div class="fact"></div>
+    </section>
+    
+    <section class="activities">
+        <div id="data-activity">
+            <p>¡Oprime el botón para obtener una actividad random!</p>
+            <button id="get-data-activity">Obten una actividad</button>
+            <hr>
+            <p class="results"></p>
+        </div>
+        <div class="activity"></div>
+    </section>
+
+  
+
+    <script src="index.js"></script>
+</body>
+</html>
